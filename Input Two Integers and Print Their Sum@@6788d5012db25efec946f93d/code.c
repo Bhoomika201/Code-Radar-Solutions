@@ -2,7 +2,7 @@
 
 int main() {
     int a,b;
-    int sum;
+    int Sum;
     printf("%d",a);
     printf("%d",b);
     scanf("%d",&a);
