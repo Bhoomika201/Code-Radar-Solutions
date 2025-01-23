@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    char C;
     char ch[]=C;
     scanf("%s",&C);
     printf("You entered: &s",ch);
