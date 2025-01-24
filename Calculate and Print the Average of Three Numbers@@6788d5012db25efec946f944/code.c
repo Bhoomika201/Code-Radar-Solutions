@@ -2,10 +2,12 @@
 
 int main() {
     int a,b,c,average;
-    float w=(float)a
+    float w=(float)a;
+    float p=(float)b;
+    float i=(float)l;
     printf(" ",a,b,c);
-    scanf("%f%f%f",&a,&b,&c);
-    average=(a+b+c)/3
+    scanf("%f%f%f",&w,&p,&i);
+    average=(w+p+i)/3
     printf("Average: %f",average);
     return 0;
 }
