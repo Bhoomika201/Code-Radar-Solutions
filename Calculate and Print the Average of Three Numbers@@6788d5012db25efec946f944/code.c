@@ -5,7 +5,7 @@ int main() {
     double average=0;
     double w=(double)a;
     double p=(double)b;
-    double i=double)l;
+    double i=(double)l;
     printf(" ",a,b,c);
     scanf("%lf%lf%lf",&w,&p,&i);
     average=(w+p+i)/3
