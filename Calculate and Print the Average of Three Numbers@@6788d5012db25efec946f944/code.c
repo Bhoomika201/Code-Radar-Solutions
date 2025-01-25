@@ -1,14 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,c;
-    double average=0;
-    double w=(double)a;
-    double p=(double)b;
-    double i=(double)l;
+    double a,b,c,average;
     printf(" ",a,b,c);
-    scanf("%lf%lf%lf",&w,&p,&i);
-    average=(w+p+i)/3
-    printf("Average: %lf",average);
+    scanf("%lf%lf%lf",&a,&b,&c);
+    average=(a+b+c)/3;
+    printf("Average :%lf",average);
     return 0;
 }
