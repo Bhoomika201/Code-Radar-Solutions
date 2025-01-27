@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int a,b;
+    printf(" ",a,b);
+    scanf("%d%d",&a,&b);
+    If(a!=b){
+        printf("True");
+    }
+    else{
+        printf("False");
+    }
+    return 0;
+}
