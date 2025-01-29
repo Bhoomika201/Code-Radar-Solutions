@@ -4,19 +4,14 @@ int main() {
     int a;
     printf("",a);
     scanf("%d",&a);
-    switch(a>0){
-        case 1:
+    if(a>0){
         printf("Positive");
-        break;
-        case 0:
-        switch(a<0){
-            case 0:
-            printf("zero");
-            break;
-            case 1:
-            printf("Negative");
-            break;
-        }
+    }
+    else if(a==0){
+        printf("Zero");
+    }
+    else{
+        printf("Negative");
     }
     return 0;
 }
