@@ -7,13 +7,13 @@ int main() {
     if(marks>=90){
         printf("A");
     }
-    else if(80<=marks<90){
+    else if(80<=marks){
         printf("B");
     }
-    else if(90<=marks<0){
+    else if(70<=marks){
         printf("C");
     }
-    else if(70<=marks<60){
+    else if(60<=marks){
         printf("D");
     }
     else{
