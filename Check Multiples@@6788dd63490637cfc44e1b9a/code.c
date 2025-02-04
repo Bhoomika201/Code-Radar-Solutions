@@ -5,7 +5,7 @@ int main() {
     printf(" ",i,j);
     scanf("%d%d",&i,&j);
     if( i%j==0){
-        printf("yes");
+        printf("Yes");
     }
     else{
         printf("No");
