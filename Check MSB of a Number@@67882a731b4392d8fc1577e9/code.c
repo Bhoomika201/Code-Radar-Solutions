@@ -3,7 +3,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if((a>.(sizeof(a)*8-1))&1){
+    if((a>>(sizeof(a)*8-1))&1){
         printf("Set");
     }
     else{
