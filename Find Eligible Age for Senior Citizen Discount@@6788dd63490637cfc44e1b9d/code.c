@@ -4,7 +4,7 @@ int main() {
     int n ;
     printf(" ",n);
     scanf("%d",&n);
-    if( 60 > n >= 65){
+    if( 60 <= n > 65){
         printf("Eligible");
     }
     else{
