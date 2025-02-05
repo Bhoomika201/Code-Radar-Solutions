@@ -17,11 +17,13 @@ int main() {
                 break;
             }
         }
-        if(flag == 0)
+        else if(flag == 0){
             printf("Prime");
-    }
+
+        }            
     else{
         printf("Not Prime");
+    }
     }
     return 0;
 }
