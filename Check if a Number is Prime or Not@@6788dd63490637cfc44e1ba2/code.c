@@ -16,12 +16,11 @@ int main() {
                 flag = 1;
                 break;
             }
-        else if(flag == 0){
-            printf("Prime");
-
-        }            
-        else{
-            printf("Not Prime");
+            else if(flag == 0){
+                printf("Prime");
+            }            
+            else{
+                printf("Not Prime");
     }
     }
     }
