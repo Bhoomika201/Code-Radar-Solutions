@@ -4,7 +4,7 @@ int main() {
     int n;
     printf(" ",n);
     scanf("%d",&n);
-    if( 1 < n >=100){
+    if( 1 <= n && n <= 100){
         printf("In Range");
     }
     else{
