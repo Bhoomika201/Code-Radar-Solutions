@@ -22,7 +22,7 @@ int main(){
             break;
         }
         else {
-            printf("%d",a/b)
+            printf("%d",a/b);
             break;
         }
         default:
