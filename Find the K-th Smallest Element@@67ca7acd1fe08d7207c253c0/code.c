@@ -1,5 +1,5 @@
 // Your code here...
-int partition(int arr[], int low, int high) {
+int kthSmallest(int arr[], int low, int high) {
     int pivot = arr[high];
     int i = low - 1;
 
